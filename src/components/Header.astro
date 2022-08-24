@@ -1,0 +1,20 @@
+---
+export interface Props {
+	
+}
+
+const {} = Astro.props as Props;
+---
+
+<header class="header">
+    <slot/>
+</header>
+<style>
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: #fdfdfd;
+    }
+</style>
